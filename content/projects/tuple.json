@@ -1,0 +1,9 @@
+{
+  "title": "Tuple",
+  "description": "A simple, beautiful, and fast way to create your profile.",
+  "url": "https://tuple.at",
+  "thumbnail": "/projects/tuple/thumbnail.png",
+  "logo": "/projects/tuple/logo.png",
+  "status": "Completed",
+  "opensource": true
+}
