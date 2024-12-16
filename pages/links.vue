@@ -1,6 +1,8 @@
 <template>
   <main class="">
-    <h2 class="mb-8 text-xl font-semibold text-zinc-800">Links</h2>
+    <h2 class="mb-8 text-xl font-semibold text-zinc-800 dark:text-zinc-200">
+      Links
+    </h2>
     <ul class="space-y-4">
       <li v-for="link in links" :key="link.url">
         <a
@@ -17,7 +19,7 @@
             {{ link.label }}
           </p>
           <span class="flex-1"></span>
-          <span class="text-xs font-medium text-zinc-400 dark:text-zinc-600">
+          <span class="text-xs font-medium text-zinc-400 dark:text-zinc-200">
             {{ link.username }}
           </span>
         </a>

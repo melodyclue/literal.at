@@ -1,6 +1,8 @@
 <template>
   <main class="">
-    <h2 class="mb-6 text-xl font-semibold text-zinc-800">Bookmarks</h2>
+    <h2 class="mb-6 text-xl font-semibold text-zinc-800 dark:text-zinc-200">
+      Bookmarks
+    </h2>
     <ul class="space-y-4">
       <li v-for="bookmark in bookmarks" :key="bookmark.slug">
         <NuxtLink
@@ -18,11 +20,10 @@
             >
               {{ bookmark.title }}
             </p>
-            <p class="text-sm text-zinc-600 dark:text-zinc-600">
+            <p class="text-sm text-zinc-600 dark:text-zinc-300">
               {{ bookmark.description }}
             </p>
           </div>
-          <span class="flex-1"></span>
         </NuxtLink>
       </li>
     </ul>

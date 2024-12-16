@@ -8,7 +8,9 @@
         <li v-for="item in items" :key="item.path" class="ml-2">
           <AppNavLink v-bind="item" />
         </li>
-        <li class="flex-1"></li>
+        <li class="flex flex-1 justify-end">
+          <AppToggleTheme />
+        </li>
       </ul>
     </nav>
   </div>

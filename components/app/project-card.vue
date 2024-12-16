@@ -5,7 +5,9 @@
         <h3 class="group-hover:text-primary-600 mb-1 text-lg font-semibold">
           {{ project.title }}
         </h3>
-        <p class="text-sm text-zinc-600">{{ project.description }}</p>
+        <p class="text-sm text-zinc-600 dark:text-zinc-400">
+          {{ project.description }}
+        </p>
       </div>
 
       <UAvatar

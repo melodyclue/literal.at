@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h2 class="mb-8 text-xl font-semibold text-zinc-800">Projects</h2>
+    <h2 class="mb-8 text-xl font-semibold text-zinc-800 dark:text-zinc-200">
+      Projects
+    </h2>
     <div class="divide-y divide-slate-100">
       <AppProjectCard
         v-for="(project, id) in projects"
